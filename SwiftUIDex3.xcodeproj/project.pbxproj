@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC7FAEDD2BD7F8AF00500CE7 /* TempPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7FAEDC2BD7F8AF00500CE7 /* TempPokemon.swift */; };
 		EC9662C12BD7A046001D9617 /* SwiftUIDex3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9662C02BD7A046001D9617 /* SwiftUIDex3App.swift */; };
 		EC9662C32BD7A046001D9617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9662C22BD7A046001D9617 /* ContentView.swift */; };
 		EC9662C52BD7A047001D9617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9662C42BD7A047001D9617 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC7FAEDC2BD7F8AF00500CE7 /* TempPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPokemon.swift; sourceTree = "<group>"; };
 		EC9662BD2BD7A046001D9617 /* SwiftUIDex3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDex3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9662C02BD7A046001D9617 /* SwiftUIDex3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDex3App.swift; sourceTree = "<group>"; };
 		EC9662C22BD7A046001D9617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,8 +59,9 @@
 			children = (
 				EC9662C02BD7A046001D9617 /* SwiftUIDex3App.swift */,
 				EC9662C22BD7A046001D9617 /* ContentView.swift */,
-				EC9662C42BD7A047001D9617 /* Assets.xcassets */,
+				EC7FAEDC2BD7F8AF00500CE7 /* TempPokemon.swift */,
 				EC9662C92BD7A047001D9617 /* Persistence.swift */,
+				EC9662C42BD7A047001D9617 /* Assets.xcassets */,
 				EC9662CB2BD7A047001D9617 /* SwiftUIDex3.xcdatamodeld */,
 				EC9662C62BD7A047001D9617 /* Preview Content */,
 			);
@@ -145,6 +148,7 @@
 			files = (
 				EC9662CA2BD7A047001D9617 /* Persistence.swift in Sources */,
 				EC9662C32BD7A046001D9617 /* ContentView.swift in Sources */,
+				EC7FAEDD2BD7F8AF00500CE7 /* TempPokemon.swift in Sources */,
 				EC9662C12BD7A046001D9617 /* SwiftUIDex3App.swift in Sources */,
 				EC9662CD2BD7A047001D9617 /* SwiftUIDex3.xcdatamodeld in Sources */,
 			);
