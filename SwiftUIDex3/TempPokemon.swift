@@ -11,12 +11,12 @@ struct TempPokemon: Codable {
     let id: Int
     let name: String
     let types: [String]
-    var hp: Int = 0
-    var attack: Int = 0
-    var defense: Int = 0
-    var specialAttack: Int = 0
-    var specialDefense: Int = 0
-    var speed: Int = 0
+    var hp = 0
+    var attack = 0
+    var defense = 0
+    var specialAttack = 0
+    var specialDefense = 0
+    var speed = 0
     let sprite: URL
     let shiny: URL
     
