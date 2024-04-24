@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC1D5BEB2BD94323003F2E38 /* FetchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D5BEA2BD94323003F2E38 /* FetchController.swift */; };
 		EC7FAEDD2BD7F8AF00500CE7 /* TempPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7FAEDC2BD7F8AF00500CE7 /* TempPokemon.swift */; };
 		EC9662C12BD7A046001D9617 /* SwiftUIDex3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9662C02BD7A046001D9617 /* SwiftUIDex3App.swift */; };
 		EC9662C32BD7A046001D9617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9662C22BD7A046001D9617 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC1D5BEA2BD94323003F2E38 /* FetchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchController.swift; sourceTree = "<group>"; };
 		EC7FAEDC2BD7F8AF00500CE7 /* TempPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPokemon.swift; sourceTree = "<group>"; };
 		EC9662BD2BD7A046001D9617 /* SwiftUIDex3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDex3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9662C02BD7A046001D9617 /* SwiftUIDex3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDex3App.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				EC9662C02BD7A046001D9617 /* SwiftUIDex3App.swift */,
 				EC9662C22BD7A046001D9617 /* ContentView.swift */,
 				EC7FAEDC2BD7F8AF00500CE7 /* TempPokemon.swift */,
+				EC1D5BEA2BD94323003F2E38 /* FetchController.swift */,
 				EC9662C92BD7A047001D9617 /* Persistence.swift */,
 				EC9662C42BD7A047001D9617 /* Assets.xcassets */,
 				EC9662CB2BD7A047001D9617 /* SwiftUIDex3.xcdatamodeld */,
@@ -148,6 +151,7 @@
 			files = (
 				EC9662CA2BD7A047001D9617 /* Persistence.swift in Sources */,
 				EC9662C32BD7A046001D9617 /* ContentView.swift in Sources */,
+				EC1D5BEB2BD94323003F2E38 /* FetchController.swift in Sources */,
 				EC7FAEDD2BD7F8AF00500CE7 /* TempPokemon.swift in Sources */,
 				EC9662C12BD7A046001D9617 /* SwiftUIDex3App.swift in Sources */,
 				EC9662CD2BD7A047001D9617 /* SwiftUIDex3.xcdatamodeld in Sources */,
@@ -292,6 +296,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +326,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
