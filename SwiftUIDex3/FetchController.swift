@@ -14,7 +14,7 @@ struct FetchController {
     
     private let baseURL = URL(string: "https://pokeapi.co/api/v2/pokemon/")!
     
-    func fetchPokemon() async throws -> [TempPokemon] {
+    func fetchAllPokemon() async throws -> [TempPokemon] {
         var allPokemon: [TempPokemon] = []
         
         var fetchComponents = URLComponents(url: baseURL, resolvingAgainstBaseURL: true)
