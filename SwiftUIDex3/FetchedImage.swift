@@ -18,7 +18,7 @@ struct FetchedImage: View {
                 .scaledToFit()
                 .shadow(color: .black, radius: 6)
         } else {
-            Image(uiImage: "bulbasaur")
+            Image("bulbasaur")
         }
     }
 }
