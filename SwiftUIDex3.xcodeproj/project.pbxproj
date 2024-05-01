@@ -76,6 +76,8 @@
 		EC348A7B2BE29706007A33A7 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		EC348A7D2BE29709007A33A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC348A7F2BE29709007A33A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC348A8D2BE29F24007A33A7 /* SwiftUIDex3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIDex3.entitlements; sourceTree = "<group>"; };
+		EC348A8E2BE29FCD007A33A7 /* Dex3WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dex3WidgetExtension.entitlements; sourceTree = "<group>"; };
 		EC7FAEDC2BD7F8AF00500CE7 /* TempPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempPokemon.swift; sourceTree = "<group>"; };
 		EC894DC22BE28E4C00A80B9B /* WidgetPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetPokemon.swift; sourceTree = "<group>"; };
 		EC90F74B2BE2844600583DC6 /* FetchedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedImage.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		EC348A742BE29706007A33A7 /* Dex3Widget */ = {
 			isa = PBXGroup;
 			children = (
+				EC348A8E2BE29FCD007A33A7 /* Dex3WidgetExtension.entitlements */,
 				EC348A752BE29706007A33A7 /* Dex3WidgetBundle.swift */,
 				EC348A772BE29706007A33A7 /* Dex3WidgetLiveActivity.swift */,
 				EC348A792BE29706007A33A7 /* Dex3Widget.swift */,
@@ -154,6 +157,7 @@
 		EC9662BF2BD7A046001D9617 /* SwiftUIDex3 */ = {
 			isa = PBXGroup;
 			children = (
+				EC348A8D2BE29F24007A33A7 /* SwiftUIDex3.entitlements */,
 				EC9662C02BD7A046001D9617 /* SwiftUIDex3App.swift */,
 				EC9662C22BD7A046001D9617 /* ContentView.swift */,
 				EC2CFE2F2BE11989001C543D /* PokemonDetail.swift */,
@@ -331,6 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Dex3Widget/Dex3WidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9RY3YFMNU4;
@@ -358,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Dex3Widget/Dex3WidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9RY3YFMNU4;
@@ -505,6 +511,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIDex3/SwiftUIDex3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDex3/Preview Content\"";
@@ -536,6 +543,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftUIDex3/SwiftUIDex3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDex3/Preview Content\"";
