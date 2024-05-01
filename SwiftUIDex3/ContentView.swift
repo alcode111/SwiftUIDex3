@@ -24,8 +24,8 @@ struct ContentView: View {
     @StateObject private var pokemonVM = PokemonViewModel(controller: FetchController())
     
     var body: some View {
-//        switch pokemonVM.status {
-//        case .success:
+        switch pokemonVM.status {
+        case .success:
             NavigationStack {
                 List(filterByFavorites ? favorites : pokedex) { pokemon in
                     NavigationLink(value: pokemon) {
@@ -66,9 +66,9 @@ struct ContentView: View {
                 }
             }
             
-//        default:
-//            ProgressView()
-//        }
+        default:
+            ProgressView()
+        }
     }
 }
 
