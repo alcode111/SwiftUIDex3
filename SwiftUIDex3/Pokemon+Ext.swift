@@ -12,8 +12,8 @@ extension Pokemon {
         switch self.types![0] {
         case "normal", "grass", "electric", "poison", "fairy":
             return "normalgrasselectricpoisonfairy"
-        case "rock", "round", "steal", "fighting", "ghost", "dark", "psychic":
-            return "rockroundstealfightingghostdarkpsychic"
+        case "rock", "ground", "steal", "fighting", "ghost", "dark", "psychic":
+            return "rockgroundsteelfightingghostdarkpsychic"
         case "fire", "dragon":
             return "firedragon"
         case "flying", "bug":
